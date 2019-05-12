@@ -19,7 +19,6 @@ void draw() {
       if(m1 != m){
         PVector force = m1.attract(m);
         m.applyForce(force);
-        
       }
       m.attractToMouse();
     }
