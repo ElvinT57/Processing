@@ -7,7 +7,7 @@ class Mover {
   PVector home;
   float [] rgb = {200, 100, 255};
   float opacity;
-  float G = 1;
+  float G = .75;  //gravitational constant
 
   Mover(float m, float x, float y) {
     location = new PVector(x, y);
