@@ -2,4 +2,4 @@
 <p>A visual representation of each country's Gross Domestic Product(GDP) per capita. The data set used is between 
 1960 and 2017. Each bubble represents a country. Their radius is represented by the GDPPC and their color by their country code (alpha-3).</p>
 
-<img src="https://github.com/ElvinT57/Processing/blob/master/GDP/GDP.gif" width="900px" height="600px"/>
+<img src="https://github.com/ElvinT57/Processing/blob/master/GDP/GDP.gif" width="850px" height="500px"/>
