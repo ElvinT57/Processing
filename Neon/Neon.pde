@@ -1,10 +1,10 @@
-Mover[] movers = new Mover[400];
+Particle[] movers = new Particle[400];
 void setup() {
   size(800, 700);
   background(0);
   smooth();
   for (int i = 0; i < movers.length; i++) {
-    movers[i] = new Mover(5, random(width), random(height));
+    movers[i] = new Particle(5, random(width), random(height));
   }
 }
 
