@@ -1,4 +1,4 @@
-class Mover {
+class Particle {
   PVector location;
   PVector velocity;
   PVector acceleration;
@@ -9,7 +9,7 @@ class Mover {
   float opacity;
   float G = .75;  //gravitational constant
 
-  Mover(float m, float x, float y) {
+  Particle(float m, float x, float y) {
     location = new PVector(x, y);
     home = new PVector(x, y);
     velocity = new PVector(0, 0);
